@@ -8,7 +8,7 @@ public class Do_While {
 		      if (i++ > --j) continue;
 		   } while (i < 5);
 		   System.out.println("i=" + i + " j=" + j);
-		}
+		}asd
 
 }
 
