@@ -12,10 +12,3 @@ public class Do_While {
 
 }
 
-1		10
-
-
-i= 2	j=9
-i= 3	j=8
-i= 4	j=7
-i= 5	j=6
