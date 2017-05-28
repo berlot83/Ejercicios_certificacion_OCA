@@ -6,10 +6,27 @@ public class Electrodomesticos {
 	
 	
 	public static void main(String args[]){
+		
 		Electrodomesticos e= new Electrodomesticos();
-		System.out.println(e.multiplicarAncho(2.55, 3));
-		System.out.println(e.dividirAltura(15.00, 2));
-		System.out.println(e.dimensiones(59.21, 75.45, 56.87));
+				System.out.println(e.multiplicarAncho(2.55, 3));
+				System.out.println(e.dividirAltura(15.00, 2));
+				System.out.println(e.dimensiones(59.21, 75.45, 56.87));
+				
+				e.setAncho(25.26);
+				e.setAltura(59.98);
+				e.setProfundidad(59.65);
+				e.setFunciones(3);
+				e.setMarca("Whilpoll");
+				e.setModelo("RDFXG56");
+				System.out.println(e.getAncho());
+				System.out.println(e.getAltura());
+				System.out.println(e.getProfundidad());
+				System.out.println(e.getFunciones());
+				System.out.println(e.getMarca());
+				System.out.println(e.getModelo());
+				
+				
+				
 	}
 	
 	//A partir de acá están los atributos, setters, getters y métodos también
@@ -80,5 +97,6 @@ public class Electrodomesticos {
 					
 						return "La cocina que me voy a comprar tiene las siguientes medidas, ancho: "+ ancho + ", alto: " + altura + " y profundidad:  " + profundidad;
 					}
+
 			
 }
